@@ -3,7 +3,7 @@ import Logo from "../assets/image/logo.png"
 const Navbar = () => {
     return ( <React.Fragment>
         <nav id="header">
-            <div class="nav-wrapper">
+            <div className="nav-wrapper">
                 <a href="/">
                     <img src={Logo} alt="logo"/>
                 </a>
@@ -12,7 +12,7 @@ const Navbar = () => {
                     <span></span>
                     <span></span>
                 </button>
-                <ul class="nav-items">
+                <ul className="nav-items">
                     <li>
                         <a href="#teamSection">Home</a>
                     </li>

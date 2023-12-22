@@ -3,20 +3,20 @@ import React from 'react';
 const Courses = () => {
     return (
         <React.Fragment>
-            <section class="team-section" id="teamSection">
+            <section className="team-section" id="teamSection">
                 <div>
-                    <h1 class="heading">Our Courses</h1>
+                    <h1 className="heading">Our Courses</h1>
 
-                    <div class="profiles">
-                        <div class="course-cards">
-                            <article class="plan [ card ]"style ={{borderRadius:"15px"}}>
-                                <div class="inner">
-                                    <h2 class="title">Professional</h2>
-                                    <p class="info">This plan is for those who have a team already and running a large business.
+                    <div className="profiles">
+                        <div className="course-cards">
+                            <article className="plan [ card ]"style ={{borderRadius:"15px"}}>
+                                <div className="inner">
+                                    <h2 className="title">Professional</h2>
+                                    <p className="info">This plan is for those who have a team already and running a large business.
                                     </p>
-                                    <ul class="features">
+                                    <ul className="features">
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -27,7 +27,7 @@ const Courses = () => {
                                             <span><strong>20</strong> team members</span>
                                         </li>
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -38,7 +38,7 @@ const Courses = () => {
                                             <span>Plan <strong>team meetings</strong></span>
                                         </li>
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -53,15 +53,15 @@ const Courses = () => {
                             </article>
 
                         </div>
-                        <div class="course-cards">
-                            <article class="plan [ card ]" style ={{borderRadius:"15px"}}>
-                                <div class="inner">
-                                    <h2 class="title">Professional</h2>
-                                    <p class="info">This plan is for those who have a team already and running a large business.
+                        <div className="course-cards">
+                            <article className="plan [ card ]" style ={{borderRadius:"15px"}}>
+                                <div className="inner">
+                                    <h2 className="title">Professional</h2>
+                                    <p className="info">This plan is for those who have a team already and running a large business.
                                     </p>
-                                    <ul class="features">
+                                    <ul className="features">
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -72,7 +72,7 @@ const Courses = () => {
                                             <span><strong>20</strong> team members</span>
                                         </li>
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -83,7 +83,7 @@ const Courses = () => {
                                             <span>Plan <strong>team meetings</strong></span>
                                         </li>
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -98,15 +98,15 @@ const Courses = () => {
                             </article>
 
                         </div>
-                        <div class="course-cards">
-                            <article class="plan [ card ]" style ={{borderRadius:"15px"}}>
-                                <div class="inner">
-                                    <h2 class="title">Professional</h2>
-                                    <p class="info">This plan is for those who have a team already and running a large business.
+                        <div className="course-cards">
+                            <article className="plan [ card ]" style ={{borderRadius:"15px"}}>
+                                <div className="inner">
+                                    <h2 className="title">Professional</h2>
+                                    <p className="info">This plan is for those who have a team already and running a large business.
                                     </p>
-                                    <ul class="features">
+                                    <ul className="features">
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -117,7 +117,7 @@ const Courses = () => {
                                             <span><strong>20</strong> team members</span>
                                         </li>
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
@@ -128,7 +128,7 @@ const Courses = () => {
                                             <span>Plan <strong>team meetings</strong></span>
                                         </li>
                                         <li>
-                                            <span class="icon">
+                                            <span className="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
                                                     height="24">
                                                     <path fill="none" d="M0 0h24v24H0z" />
