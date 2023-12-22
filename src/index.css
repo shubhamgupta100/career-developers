@@ -253,10 +253,13 @@ nav .nav-items {
 }
 
 /* Slider */
-
+.course-cards{
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
 .slider-container {
   width: 100%;
-  height: 446px;
+  height: 476px;
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -275,16 +278,9 @@ nav .nav-items {
   animation-direction: normal;
   animation-fill-mode: forwards !important;
   animation-play-state: running;
+  display: flex;
 }
 
-.slider-image {
-  width: auto;
-  height: 346px;
-  width: 346px;
-  float: left;
-  position: relative;
-  padding: 50px;
-}
 
 @keyframes slider {
   0% {
@@ -302,7 +298,7 @@ nav .nav-items {
 }
 
 .slider-container {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .slider-container .heading h1 {
@@ -320,7 +316,7 @@ nav .nav-items {
   width: 70px;
   height: 4px;
   border-radius: 6px;
-  background: rgb(253, 44, 89);
+  background: #924cd9;
   opacity: 0.5;
 }
 
@@ -1632,6 +1628,7 @@ background-color: var(--c-ash);
 
 .teacher-card {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 80%;
