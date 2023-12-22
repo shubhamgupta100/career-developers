@@ -160,7 +160,7 @@ nav .nav-items {
           width: 800px;
           height: 800px;
           border-radius: 50%;
-          background: linear-gradient(#ee9ca7, #ec4357);
+          background: linear-gradient(#ee9ca7, #924cd9);
       } */
 
 .intro .image {
@@ -220,7 +220,7 @@ nav .nav-items {
           width: 300px;
           height: 300px;
           border-radius: 50%;
-          background: linear-gradient(#ee9ca7, #ec4357);
+          background: linear-gradient(#ee9ca7, #924cd9);
       } */
 
 .about-content h1 {
@@ -229,7 +229,7 @@ nav .nav-items {
   line-height: 1.4em;
   position: relative;
   margin-bottom: 1em;
-  color: #ec4357;
+  color: #924cd9;
 }
 
 .about .about-content h1::after {
@@ -380,7 +380,7 @@ nav .nav-items {
 }
 
 .privacy p {
-  color: #ec4357 !important;
+  color: #924cd9 !important;
   font-size: 18px;
   font-weight: normal;
   margin-top: 10px;
@@ -392,7 +392,7 @@ nav .nav-items {
 
 .footer .contact i {
   background-color: #fff;
-  color: #ec4357;
+  color: #924cd9;
   width: 50px;
   height: 40px;
   text-align: center;
@@ -414,7 +414,7 @@ nav .nav-items {
 }
 
 .footer .connect-with-us h3 {
-  color: #ec4357 !important;
+  color: #924cd9 !important;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -437,7 +437,7 @@ nav .nav-items {
   cursor: pointer;
   background-color: #fff;
   font-size: 20px;
-  color: #ec4357;
+  color: #924cd9;
   text-align: center;
 }
 
@@ -499,7 +499,7 @@ nav .nav-items {
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 3px;
-  color: rgb(253, 44, 89);
+  color: #924cd9;
 }
 
 .team-section .profile p {
@@ -602,7 +602,7 @@ nav .nav-items {
       width: 600px;
       height: 600px;
       border-radius: 50%;
-      background: linear-gradient(#ee9ca7, #ec4357);
+      background: linear-gradient(#ee9ca7, #924cd9);
   }
 
   .intro .image {
@@ -657,7 +657,7 @@ nav .nav-items {
       width: 250px;
       height: 250px;
       border-radius: 50%;
-      background: linear-gradient(#ee9ca7, #ec4357);
+      background: linear-gradient(#ee9ca7, #924cd9);
   }
 
   .about-content h1 {
@@ -666,7 +666,7 @@ nav .nav-items {
       line-height: 1.2em;
       position: relative;
       margin-bottom: 1em;
-      color: #ec4357;
+      color: #924cd9;
   }
 
   .about .about-content h1::after {
@@ -720,7 +720,7 @@ nav .nav-items {
 
   .team-section .heading {
       font-size: 1.8em;
-      color: rgb(253, 44, 89);
+      color: #924cd9;
       font-weight: 700;
       text-align: center;
       padding-left: 0;
@@ -817,7 +817,7 @@ nav .nav-items {
       width: 50px;
       height: 4px;
       border-radius: 6px;
-      /* background: rgb(253, 44, 89); */
+      background-color: #924cd9;
       opacity: 0.5;
   }
 
@@ -861,7 +861,7 @@ nav .nav-items {
       width: 235px;
       height: 235px;
       border-radius: 50%;
-      background: linear-gradient(#ee9ca7, #ec4357);
+      background: linear-gradient(#ee9ca7, #924cd9);
   }
 
   .about-content h1 {
@@ -870,7 +870,7 @@ nav .nav-items {
       line-height: 1.3em;
       position: relative;
       margin-bottom: 1em;
-      color: #ec4357;
+      color: #924cd9;
   }
 
   .about .about-content h1::after {
@@ -1057,7 +1057,6 @@ nav .nav-items {
 
   .intro .image img {
       display: none;
-
   }
 
   .intro h1 {
@@ -1136,7 +1135,7 @@ nav .nav-items {
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      background: linear-gradient(#ee9ca7, #ec4357);
+      background: linear-gradient(#ee9ca7, #924cd9);
   }
 
   .nav-wrapper button {
@@ -1237,7 +1236,7 @@ nav .nav-items {
 
   .team-section .heading {
       font-size: 30px;
-      color: rgb(253, 44, 89);
+      color: #924cd9;
       text-align: center;
       padding-left: 0;
   }
@@ -1254,7 +1253,7 @@ nav .nav-items {
       font-size: 18px;
       font-weight: 100;
       letter-spacing: 0px;
-      color: rgb(253, 44, 89);
+      color: #924cd9;
   }
 
   .team-section .profile p {
