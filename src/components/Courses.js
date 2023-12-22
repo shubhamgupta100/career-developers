@@ -3,7 +3,7 @@ import React from 'react';
 const Courses = () => {
     return (
         <React.Fragment>
-            <section className="team-section" id="teamSection">
+            <section className="team-section" id="courseSection">
                 <div>
                     <h1 className="heading">Our Courses</h1>
 

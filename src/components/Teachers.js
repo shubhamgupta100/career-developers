@@ -2,7 +2,7 @@ import React from 'react';
 
 const Teachers = () => {
 
-    return (<section className="slider-container" id="colaborate">
+    return (<section className="slider-container" id="teachers">
         <div className="heading">
             <h1>
                 Our Teachers

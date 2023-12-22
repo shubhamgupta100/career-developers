@@ -32,13 +32,13 @@ const Footer = () => {
                     </div>
 
                     <div className="icons">
-                        <a href="https://www.facebook.com/shubhamgupta9559/"><i className="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com/shubhgupta100/"><i className="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/shubham.gupta100/"><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/shubhamgupta9559/" target='blank'><i className="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/shubhgupta100/" target='blank'><i className="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/shubham.gupta100/" target='blank'><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
 
-                <ul className="cards">
+                <ul className="cards shubham-card">
                     <li>
                         <span className="card">
                             <img src="https://i.imgur.com/2DhmtJ4.jpg" className="card__image" alt="" />
@@ -51,6 +51,11 @@ const Footer = () => {
                                     <div className="card__header-text">
                                         <h3 className="card__title">Shubham Gupta</h3>
                                         <span className="card__status">Full Stack Developer</span>
+                                        <div className="icons">
+                                            <a href="https://www.facebook.com/shubhamgupta9559/" target='blank'><i className="fab fa-facebook"></i></a>
+                                            <a href="https://twitter.com/shubhgupta100/" target='blank'><i className="fab fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/shubham.gupta100/" target='blank'><i className="fab fa-instagram"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                                 <p className="card__description">Shubham is a B.tech graduate  he is a software enginner and
