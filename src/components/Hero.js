@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
                     <div className="content">
                         <p>
-                            Welcome to Carrer Developers, where academic excellence meets personalized guidance.
+                            Welcome to Career Developers, where academic excellence meets personalized guidance.
                             Our coaching institute is dedicated to empowering students to reach their fullest potential.
                             Join us and embark on a transformative educational journey that will shape your future.
                         </p>
