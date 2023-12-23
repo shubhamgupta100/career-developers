@@ -13,7 +13,7 @@ const Footer = () => {
 
                     <div className="con">
                         <i className="fas fa-map-marker-alt"></i>
-                        <p>Carrer Developers (Azamgarh)</p>
+                        <p>Career Developers (Azamgarh)</p>
                     </div>
 
                     <div className="con">
