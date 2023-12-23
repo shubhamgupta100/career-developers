@@ -1,6 +1,16 @@
 import React from 'react';
-import Student from "../assets/image/students.jpg"
+import YouTube from 'react-youtube';
+
 const Hero = () => {
+    // const videoId = 'AenvrDbPj9Y7fCl5'; // Replace this with the actual YouTube video ID
+    const opts = {
+        height: '290',
+        // width: '640',
+        width:"100%",
+        playerVars: {
+            autoplay: 0,
+        },
+    };
     return (<React.Fragment>
         <section className="intro" id="instroSection">
             <div className="main-container container">
@@ -22,7 +32,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="image">
-                    <img src={Student} alt="" />
+                    <YouTube videoId={'3ARGKv-yMTQ'} opts={opts} />
                 </div>
             </div>
         </section>
