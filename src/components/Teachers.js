@@ -6,6 +6,7 @@ import SY from "../assets/image/SY.jpeg"
 import AG from "../assets/image/AG.jpeg"
 import AY from "../assets/image/ARADHYA.jpeg"
 import AZ from "../assets/image/AZ.jpeg"
+import SS from "../assets/image/SS.jpeg"
 const Teachers = () => {
     return (<section className="team-section" id="teachers">
         <div className="heading">
@@ -90,9 +91,16 @@ const teachers = [
     {
         img: AZ,
         name: 'Ahmad Faraz',
-        subject: 'Physics',
+        subject: 'PHYSICS',
         education: 'M.Sc, B.Ed',
         detail: 'Having 2 years of teaching experience in'
+    },
+    {
+        img: SS,
+        name: 'Subham Singh',
+        subject: 'CHEMISTRY',
+        education: 'M.Sc(Chemistry)',
+        detail: 'Having 10 years of teaching experience in'
     },
 
 ];
