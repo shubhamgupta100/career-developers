@@ -18,7 +18,7 @@ import SixteenImage from "../assets/image/15.jpeg"
 
 export default function ImageSlider() {
     const isMobile = useMediaQuery('(max-width:800px)')
-    return (<div className='image-slider'>
+    return (<div className='image-slider' id='galleries'>
         <div className="gallery-heading">
             <h1>
                 Galleries

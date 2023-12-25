@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from "../assets/image/logo.png"
 const Navbar = () => {
-    const showMenu = (event) =>{
+    const showMenu = (event) => {
         event.preventDefault();
         let element = document.getElementById('header');
         if (element.classList.contains('active')) {
@@ -10,11 +10,11 @@ const Navbar = () => {
             element.className = "active";
         }
     }
-    return ( <React.Fragment>
+    return (<React.Fragment>
         <nav id="header">
             <div className="nav-wrapper">
                 <a href="/">
-                    <img src={Logo} alt="logo"/>
+                    <img src={Logo} alt="logo" />
                 </a>
                 <button id="submenu" onClick={showMenu}>
                     <span></span>
@@ -26,6 +26,9 @@ const Navbar = () => {
                         <a href="#instroSection">Home</a>
                     </li>
                     <li>
+                        <a href='#galleries'>Photo Gallery</a>
+                    </li>
+                    <li>
                         <a href="#courseSection">Courses</a>
                     </li>
                     <li>
@@ -34,6 +37,7 @@ const Navbar = () => {
                     <li>
                         <a href="#contact">Contact Us</a>
                     </li>
+
                 </ul>
             </div>
         </nav>

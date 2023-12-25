@@ -4,7 +4,7 @@ import YouTube from 'react-youtube';
 const Hero = () => {
     const opts = {
         height: '290',
-        width:"100%",
+        width: "100%",
         playerVars: {
             autoplay: 0,
         },
@@ -26,7 +26,9 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="button">
-                        <button type="button" className="btn btn-danger btn-lg" style={{ background: "#924cd9" }}>Inquiry</button>
+                        <a href='https://wa.me/9838756419' target='_blank'>
+                            <button type="button" className="btn btn-danger btn-lg" style={{ background: "#924cd9" }}>
+                                Inquiry</button> </a>
                     </div>
                 </div>
                 <div className="image">

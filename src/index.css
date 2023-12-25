@@ -1139,7 +1139,7 @@ nav .nav-items {
   }
 
   .connect-with-us p {
-    width: 70%;
+    width: 90%;
     position: relative;
     margin: auto;
   }
@@ -1147,7 +1147,7 @@ nav .nav-items {
   .footer .contact {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 100%;
     position: relative;
     margin: auto;
   }
@@ -1247,8 +1247,7 @@ background-color: var(--c-ash);
   flex-wrap: wrap;
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 2.5rem;
+  justify-content: space-around;
   margin-bottom: 10px;
 }
 
@@ -1256,6 +1255,7 @@ background-color: var(--c-ash);
   border-radius: 16px;
   box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
   max-width: 300px;
+  max-height: 350px;
 }
 
 .plan {
@@ -1358,7 +1358,7 @@ background-color: var(--c-ash);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  margin: 4rem 5vw;
+  margin-bottom: 2rem;
   padding: 0;
   list-style-type: none;
 }
@@ -1456,8 +1456,9 @@ background-color: var(--c-ash);
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
-  overflow: hidden;
+  overflow: auto;
   text-align: justify;
+  font-size: 15px;
 }
 
 .card-client {

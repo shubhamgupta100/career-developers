@@ -13,7 +13,7 @@ const Footer = () => {
 
                     <div className="con">
                         <i className="fas fa-map-marker-alt"></i>
-                        <p>Career Developers (Azamgarh)</p>
+                        <p>Career Developers (DAV PG COLLAGE , NORTH BANDHA RUDRA LIBRARY , AZAMGARH)</p>
                     </div>
 
                     <div className="con">
@@ -32,16 +32,16 @@ const Footer = () => {
                     </div>
 
                     <div className="icons">
-                        <a href="https://www.facebook.com/shubhamgupta9559/" target='blank'><i className="fab fa-facebook"></i></a>
-                        <a href="https://twitter.com/shubhgupta100/" target='blank'><i className="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/shubham.gupta100/" target='blank'><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/people/Satendra-Yadav/pfbid026AjKgipNcEQ75gMuTiuHZUUePyENNj4hm4hNZhmKTQT5Bqv1RMXwCe6QUW4rALQ6l/?mibextid=kFxxJD" target='blank'><i className="fab fa-facebook"></i></a>
+                        <a href="https://x.com/Cdevelopers7398?t=vUa3_DIuUWYGAOYouh2tlg&s=08" target='blank'><i className="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/careerdevelopers6/?igsh=MXBjYjg0MzJoZnNxMg%3D%3D" target='blank'><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
 
                 <ul className="cards shubham-card">
                     <li>
                         <span className="card">
-                            <img src="https://i.imgur.com/2DhmtJ4.jpg" className="card__image" alt="" />
+                            <img src={ShubhamProfile} className="card__image" alt="" />
                             <div className="card__overlay">
                                 <div className="card__header">
                                     <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +50,7 @@ const Footer = () => {
                                     <img className="card__thumb" src={ShubhamProfile} alt="" />
                                     <div className="card__header-text">
                                         <h3 className="card__title">Shubham Gupta</h3>
-                                        <span className="card__status">Full Stack Developer</span>
+                                        <span className="card__status">Software Enginner</span>
                                         <div className="icons">
                                             <a href="https://www.facebook.com/shubhamgupta9559/" target='blank'><i className="fab fa-facebook"></i></a>
                                             <a href="https://twitter.com/shubhgupta100/" target='blank'><i className="fab fa-twitter"></i></a>
