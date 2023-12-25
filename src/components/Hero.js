@@ -26,7 +26,7 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="button">
-                        <a href='https://wa.me/9838756419' target='_blank'>
+                        <a href='https://wa.me/9838756419' target='blank'>
                             <button type="button" className="btn btn-danger btn-lg" style={{ background: "#924cd9" }}>
                                 Inquiry</button> </a>
                     </div>
