@@ -156,9 +156,9 @@ nav .nav-items {
 .intro .image {
   width: 45% !important;
   display: inline-block;
- position: relative;
- top: 60px;
- margin-bottom: 15px;
+  position: relative;
+  top: 60px;
+  margin-bottom: 15px;
 }
 
 /* About section */
@@ -297,6 +297,30 @@ nav .nav-items {
   border-radius: 6px;
   background: #924cd9 !important;
 }
+
+
+.image-slider .gallery-heading h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 1.4em;
+  position: relative;
+  left: -300%;
+  top: -30px !important;
+  color: #924cd9;
+
+}
+
+
+.image-slider {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+}
+
 
 .banner {
   background: url("./assets/image/banner.png") no-repeat;
@@ -659,7 +683,10 @@ nav .nav-items {
 }
 
 @media only screen and (max-width: 1200px) {
-
+  .image-slider .gallery-heading h1 {
+    left: 0%;
+    top: 0px !important;
+  }
   .about {
     min-height: 400px;
     margin-bottom: 0 !important;
@@ -709,7 +736,10 @@ nav .nav-items {
 }
 
 @media (min-width: 800px) and (max-width:1000px) {
-
+  .image-slider .gallery-heading h1 {
+    left: 0%;
+    top: 0px !important;
+  }
   .nav-wrapper {
     width: 100%;
     max-width: 100%;
@@ -753,7 +783,8 @@ nav .nav-items {
     position: relative;
     top: 10px;
   }
-  .intro .image{
+
+  .intro .image {
     top: 100px;
   }
 
@@ -866,6 +897,13 @@ nav .nav-items {
 }
 
 @media screen and (max-width:800px) {
+  .image-slider {
+    width: 95%;
+  }
+  .image-slider .gallery-heading h1 {
+    left: 0%;
+    top: 0px !important;
+  }
 
   /* Nav bar resposive */
   nav {
@@ -989,7 +1027,8 @@ nav .nav-items {
   .intro h1 {
     font-size: 24px !important;
   }
-  .intro .image{
+
+  .intro .image {
     width: 90% !important;
   }
 

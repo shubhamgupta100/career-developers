@@ -2,10 +2,8 @@ import React from 'react';
 import YouTube from 'react-youtube';
 
 const Hero = () => {
-    // const videoId = 'AenvrDbPj9Y7fCl5'; // Replace this with the actual YouTube video ID
     const opts = {
         height: '290',
-        // width: '640',
         width:"100%",
         playerVars: {
             autoplay: 0,
