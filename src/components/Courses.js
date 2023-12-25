@@ -160,7 +160,7 @@ export default Courses;
 const courses = [
     {
         name: "Competition",
-        detail: 'TET, CTET SSC etc for more info please call or text us.',
+        detail: 'U.P Police ,TET, CTET ,SSC etc for more info please call or text us.',
         pt1: 'Morning Batch',
         pt2: 'Doubt resolve facility',
         pt3: 'Test Series'

@@ -5,6 +5,7 @@ import SP from "../assets/image/SP.jpeg"
 import SY from "../assets/image/SY.jpeg"
 import AG from "../assets/image/AG.jpeg"
 import AY from "../assets/image/ARADHYA.jpeg"
+import AZ from "../assets/image/AZ.jpeg"
 const Teachers = () => {
     return (<section className="team-section" id="teachers">
         <div className="heading">
@@ -56,7 +57,7 @@ const teachers = [
         name: 'S.P SIR (CMD)',
         subject: 'ENGLISH AND PSYCHOLOGY',
         education: 'M.A. , B.Ed',
-        detail: 'NDA WRITTEN QUILIFY, CGL WRITTEN QUILIFY and having 8 years of teaching experience in'
+        detail: 'Ideal journalist association and having 13 years of teaching experience in'
     },
     {
         img: RS,
@@ -85,6 +86,13 @@ const teachers = [
         subject: 'COMPUTER & SCIENCE ',
         education: 'Bsc(Biology, Chemistry) B.ed , ADCA , OLevel',
         detail: 'CTET PRIMARY QUALIFIED ,6 months of English language and grammar with personality development and having 2 years of teaching experience in'
+    },
+    {
+        img: AZ,
+        name: 'Ahmad Faraz',
+        subject: 'Physics',
+        education: 'M.Sc, B.Ed',
+        detail: 'Having 2 years of teaching experience in'
     },
 
 ];
