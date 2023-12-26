@@ -107,7 +107,7 @@ const itemData = [
         img: SeventeenImage,
         title: 'Bike',
     }, {
-        img: EightImage,
+        img: EighteenImage,
         title: 'Bike',
     },
     {
