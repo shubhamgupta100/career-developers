@@ -15,7 +15,9 @@ import ThirteenImage from "../assets/image/12.jpeg"
 import FourteenImage from "../assets/image/13.jpeg"
 import FifteenImage from "../assets/image/14.jpeg"
 import SixteenImage from "../assets/image/15.jpeg"
-
+import SeventeenImage from "../assets/image/20.jpeg"
+import EighteenImage from "../assets/image/21.jpeg"
+import NinteenImage from "../assets/image/22.jpeg"
 export default function ImageSlider() {
     const isMobile = useMediaQuery('(max-width:800px)')
     return (<div className='image-slider' id='galleries'>
@@ -99,6 +101,17 @@ const itemData = [
     },
     {
         img: SixteenImage,
+        title: 'Bike',
+    },
+    {
+        img: SeventeenImage,
+        title: 'Bike',
+    }, {
+        img: EightImage,
+        title: 'Bike',
+    },
+    {
+        img: NinteenImage,
         title: 'Bike',
     },
 ];
