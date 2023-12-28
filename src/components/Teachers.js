@@ -7,6 +7,9 @@ import AG from "../assets/image/AG.jpeg"
 import AY from "../assets/image/ARADHYA.jpeg"
 import AZ from "../assets/image/AZ.jpeg"
 import SS from "../assets/image/SS.jpeg"
+import AS from "../assets/image/AS.jpeg"
+import VS from "../assets/image/VS.jpeg"
+import YA from "../assets/image/YA.jpeg"
 const Teachers = () => {
     return (<section className="team-section" id="teachers">
         <div className="heading">
@@ -16,7 +19,7 @@ const Teachers = () => {
         </div>
         <div className="profiles">
             {
-                teachers.map((item , index) => {
+                teachers.map((item, index) => {
                     return <ul className="cards" key={index}>
                         <li>
                             <span className="card">
@@ -32,7 +35,7 @@ const Teachers = () => {
                                             <span className="card__status">{item.education}</span>
                                         </div>
                                     </div>
-                                    <p className="card__description">{item.detail + " "+item.subject}</p>
+                                    <p className="card__description">{item.detail + " " + item.subject}</p>
                                 </div>
                             </span>
                         </li>
@@ -101,6 +104,27 @@ const teachers = [
         subject: 'CHEMISTRY',
         education: 'M.Sc(Chemistry)',
         detail: 'Having 10 years of teaching experience in'
+    },
+    {
+        img: AS,
+        name: 'Aditya Singh',
+        subject: 'SCIENCE & BIOLOGY',
+        education: 'M.Sc. , B.Ed.',
+        detail: 'Having 12 years of teaching experience in'
+    },
+    {
+        img: VS,
+        name: 'VIVEK SINGH',
+        subject: 'MATHS & PHYSICS',
+        education: 'M.SC , B.ED',
+        detail: 'Having 13 years of teaching experience in'
+    },
+    {
+        img: YA,
+        name: 'Yogesh Asthana',
+        subject: 'Accountancy',
+        education: 'M.Com, B.Ed.',
+        detail: 'Having 20 years of teaching experience in'
     },
 
 ];
