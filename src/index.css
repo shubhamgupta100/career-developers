@@ -1255,7 +1255,8 @@ background-color: var(--c-ash);
   border-radius: 16px;
   box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
   max-width: 300px;
-  max-height: 350px;
+  max-height: 310px;
+  min-height: 310px;
 }
 
 .plan {
