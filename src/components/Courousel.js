@@ -7,7 +7,7 @@ import C3 from "../assets/image/c3.jpeg"
 const Courousel = () => {
     return (
         <div className='courousel'>
-            <Carousel autoPlay>
+            <Carousel autoPlay interval={1000}>
                 <div>
                     <img src={C1} alt='' />
                 </div>
