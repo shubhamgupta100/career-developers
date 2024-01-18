@@ -54,6 +54,7 @@ nav {
 .nav-wrapper a img {
   position: relative;
   top: -25px;
+  height: 160px;
 }
 
 nav img {

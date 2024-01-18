@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../assets/image/logo.png"
+import Logo from "../assets/image/logo.jpg"
 const Navbar = () => {
     const showMenu = (event) => {
         event.preventDefault();
